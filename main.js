@@ -30,7 +30,50 @@ var app = new Vue({
                 author: 'Rob',
                 price: 20,
                 level: 'Secondary 2',
-            }]
+            },
+            {
+                id: 5,
+                title: 'Discover Chemistry',
+                author:'Chan',
+                price: 40,
+                level: 'Secondary 3',
+            },
+            {
+                id: 6,
+                title: 'Discover Physics',
+                author: 'Alex',
+                price: 40,
+                level: 'Secondary 3',
+            },
+            {
+                id: 7,
+                title: 'Discover Pure Chemistry',
+                author: 'Alex',
+                price: 50,
+                level: 'Secondary 4',
 
-    }
+                id: 8,
+                title: 'Discover Pure Physics',
+                author: 'Alex',
+                price: 50,
+                level: 'Secondary 4',
+            },
+            {    id: 9,
+                title: 'Discover Pure Chemistry',
+                author: 'Alex',
+                price: 50,
+                level: 'Secondary 4',
+            }],
+
+                
+
+            
+        currentBooks: []       
+   },
+   methods: {
+    getBooks: function (message) {
+     alert(message)
+    this.currentBooks =  this.books.filter(book => book.level==message);
+    } 
+}
 })
