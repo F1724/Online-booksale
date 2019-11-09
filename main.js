@@ -8,6 +8,7 @@ var app = new Vue({
                 author: "Alan",
                 price: 30,
                 level: 'Secondary 1',
+                img: ""
 
             },
             {
