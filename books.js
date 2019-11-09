@@ -32,5 +32,42 @@ books:[
                 price: "20",
                 level: "Secondary 2",
                 img: "jauhari 2B.jpg" ,
+
+                title: "Discovering Maths,2A",
+                author: "Alan",
+                price: "30",
+                level: "Secondary 2",
+                img:"discovering maths 1A.jpg",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             }]
 
