@@ -9,7 +9,7 @@ var app = new Vue({
                 price: 30,
                 level: 'Secondary 1',
                 img: "img/discovering maths 1A.jpg",
-                reserved: true 
+                reserved: true
             },
             {
                 id: 2,
@@ -42,7 +42,7 @@ var app = new Vue({
             {
                 id: 5,
                 title: 'Discover Chemistry',
-                author:'Chan',
+                author: 'Chan',
                 price: 40,
                 level: 'Secondary 3',
             },
@@ -65,33 +65,34 @@ var app = new Vue({
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-                
+
             },
-            {    id: 9,
+            {
+                id: 9,
                 title: 'Discover Pure Chemistry',
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-    
+
             }],
 
-                
 
-            
-        currentBooks: [],       
-   },
-   methods: {
-    getBooks: function (message) {
-    this.currentBooks =  this.books.filter(book => book.level==message);
-    }, 
 
-    methods: { 
-    getReserved: function (message) {
-    this.getReserved = this.reserved.filter(reserved => reserved.level==message);
-    
-        
-        },
+
+        currentBooks: [],
     },
-}
+    methods: {
+        getBooks: function (levelchoice) {
+            this.currentBooks = this.books.filter(book => book.level == levelchoice);
+        },
+        reserveBook: function (message) {
+
+            // use message to pass the book.name
+            // // find a book obj that matches the same book.name that was passed
+            // change book obj.reserved from false to true
+            alert(message)
+
+            book.reserved = true
+        },
+    }
 })
-  
