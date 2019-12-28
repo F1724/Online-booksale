@@ -83,6 +83,15 @@ var app = new Vue({
    methods: {
     getBooks: function (message) {
     this.currentBooks =  this.books.filter(book => book.level==message);
-    } 
+    }, 
+
+    methods: { 
+    getReserved: function (message) {
+    this.getReserved = this.reserved.filter(reserved => reserved.level==message);
+    
+        
+        },
+    },
 }
 })
+  
