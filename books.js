@@ -5,7 +5,7 @@ books:[
                 author: "Alan",
                 price: "30",
                 level: "Secondary 1",
-                img:"discovering maths 1A.jpg",
+                img:"img\discovering maths 1A.jpg"
 
             },
             {
