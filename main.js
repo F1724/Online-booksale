@@ -8,7 +8,7 @@ var app = new Vue({
                 author: "Alan",
                 price: 30,
                 level: 'Secondary 1',
-                img: ""
+                img: "img/discovering maths 1A.jpg"
 
             },
             {
@@ -17,6 +17,8 @@ var app = new Vue({
                 author: 'Alan',
                 price: 30,
                 level: 'Secondary 1',
+                img: "img/discovering maths 1B.jpg"
+
             },
             {
                 id: 3,
@@ -24,6 +26,8 @@ var app = new Vue({
                 author: 'Rob',
                 price: 20,
                 level: 'Secondary 2',
+                img: "img/jauhari 2A.jpg"
+
             },
             {
                 id: 4,
@@ -31,6 +35,7 @@ var app = new Vue({
                 author: 'Rob',
                 price: 20,
                 level: 'Secondary 2',
+                img: "img/jauhari 2B.jpg"
             },
             {
                 id: 5,
@@ -73,7 +78,6 @@ var app = new Vue({
    },
    methods: {
     getBooks: function (message) {
-     alert(message)
     this.currentBooks =  this.books.filter(book => book.level==message);
     } 
 }
