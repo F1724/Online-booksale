@@ -55,9 +55,9 @@
 
     </div>
     <div class="col-sm-8 text-left">
-        <div class="card-deck">
+        <div >
             <!-- <ul id="example-1"> -->
-                <div v-for="book in currentBooks"> 
+                <div v-for="book in currentBooks" class="card-columns"> 
                     <div class="card" style="width: 18rem;">
                         <img :src="book.img" class="card-img-top" alt="...">
                         <div class="card-body">
