@@ -8,8 +8,8 @@ var app = new Vue({
                 author: "Alan",
                 price: 30,
                 level: 'Secondary 1',
-                img: "img/discovering maths 1A.jpg"
-
+                img: "img/discovering maths 1A.jpg",
+                reserved: true 
             },
             {
                 id: 2,
@@ -17,7 +17,8 @@ var app = new Vue({
                 author: 'Alan',
                 price: 30,
                 level: 'Secondary 1',
-                img: "img/discovering maths 1B.jpg"
+                img: "img/discovering maths 1B.jpg",
+                reserved: true
 
             },
             {
@@ -26,7 +27,8 @@ var app = new Vue({
                 author: 'Rob',
                 price: 20,
                 level: 'Secondary 2',
-                img: "img/jauhari 2A.jpg"
+                img: "img/jauhari 2A.jpg",
+                reserved: false
 
             },
             {
@@ -63,18 +65,20 @@ var app = new Vue({
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
+                
             },
             {    id: 9,
                 title: 'Discover Pure Chemistry',
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
+    
             }],
 
                 
 
             
-        currentBooks: []       
+        currentBooks: [],       
    },
    methods: {
     getBooks: function (message) {
