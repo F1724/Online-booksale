@@ -55,9 +55,9 @@
 
     </div>
     <div class="col-sm-8 text-left">
-        <div >
-            <ul id="example-1">
-                <li v-for="book in currentBooks"> 
+        <div class="card-deck">
+            <!-- <ul id="example-1"> -->
+                <div v-for="book in currentBooks"> 
                     <div class="card" style="width: 18rem;">
                         <img :src="book.img" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -65,21 +65,11 @@
                           <a href="#" class="btn btn-primary">Reserve</a>
                         </div>
                       </div>
-                    <div class="container">
-                      <h4><b></b></h4>
-                      <p></p>
-                    </div>
-                  </div>
-                </li>
-                </li>
-              </ul>
-  
   
           </div>
-   
+   </div>
     </div>
 </div>
-
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
 </footer>
