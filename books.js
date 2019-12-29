@@ -25,8 +25,7 @@ books:[
                 img: "img\jauhari 2A.jpg",
                 
             },
-            {
-                id: 4,
+            {   id: 4,
                 title: "Jauhari,2B",
                 author: "Rob",
                 price: "20",
