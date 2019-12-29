@@ -22,22 +22,49 @@ books:[
                 author: "Rob",
                 price: "20",
                 level: "Secondary 2",
-                img: "",
+                img: "img\jauhari 2A.jpg",
                 
             },
-            {
-                id: 4,
+            {   id: 4,
                 title: "Jauhari,2B",
                 author: "Rob",
                 price: "20",
                 level: "Secondary 2",
-                img: "jauhari 2B.jpg" ,
+                img: "img\jauhari 2BA.jpg" ,
 
-                title: "Discovering Maths,2A",
+                id: "Discovering Maths,2A",
                 author: "Alan",
                 price: "30",
                 level: "Secondary 2",
-                img:"discovering maths 1A.jpg",
+                img:"img\discovering mathematics 2A.jpg",
+
+
+                id: 7,
+                title: 'Discover Pure Chemistry',
+                author: 'Alex',
+                price: 50,
+                level: 'Secondary 4',
+                img: "img\pure chemistry textbook GCE O Level.jpg"
+            },
+            {    
+                id: 8,
+                title: 'Discover Pure Physics',
+                author: 'Alex',
+                price: 50,
+                level: 'Secondary 4',
+                img: "img\pure physics textbook GCE O Level.jpg"
+
+            },
+            {
+                id: 9,
+                title: 'Discover Pure Biology',
+                author: 'Alex',
+                price: 50,
+                level: 'Secondary 4',
+                img: "img\pure biology textbook GCE O Level.jpg"
+
+            },
+            {
 
 
 
