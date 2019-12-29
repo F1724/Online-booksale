@@ -9,7 +9,7 @@ var app = new Vue({
                 price: 30,
                 level: 'Secondary 1',
                 img: "img/discovering maths 1A.jpg",
-                reserved: true
+                
             },
             {
                 id: 2,
@@ -18,8 +18,7 @@ var app = new Vue({
                 price: 30,
                 level: 'Secondary 1',
                 img: "img/discovering maths 1B.jpg",
-                reserved: true
-
+                
             },
             {
                 id: 3,
@@ -28,7 +27,7 @@ var app = new Vue({
                 price: 20,
                 level: 'Secondary 2',
                 img: "img/jauhari 2A.jpg",
-                reserved: false
+                
 
             },
             {
@@ -45,6 +44,7 @@ var app = new Vue({
                 author: 'Chan',
                 price: 40,
                 level: 'Secondary 3',
+                img: "img\discovering chemistry GCE O Level.jpg"
             },
             {
                 id: 6,
@@ -52,6 +52,7 @@ var app = new Vue({
                 author: 'Alex',
                 price: 40,
                 level: 'Secondary 3',
+                img: "img\discovering physics GCE O Level.jpg"
             },
             {
                 id: 7,
@@ -59,28 +60,35 @@ var app = new Vue({
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-
+                img: "img\pure chemistry textbook GCE O Level.jpg"
+            },
+            {    
                 id: 8,
                 title: 'Discover Pure Physics',
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
+                img: "img\pure physics textbook GCE O Level.jpg"
 
             },
             {
                 id: 9,
-                title: 'Discover Pure Chemistry',
+                title: 'Discover Pure Biology',
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
+                img: "img\pure biology textbook GCE O Level.jpg"
 
             },
             {
                 id: 10,
                 title: 'Discovering Maths,2A',
                 author:'Alex',
-                price:50,
+                price: 50,
                 level:'Secondary 2',
+                img: "img\discovering mathematics 2A.jpg"
+
+
             }],
             
                 
