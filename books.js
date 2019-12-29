@@ -14,7 +14,7 @@ books:[
                 author: "Alan",
                 price: "30",
                 level: "Secondary 1",
-                img: "discovering maths 1B.jpg" ,
+                img: "img\discovering maths 1B.jpg" ,
             },
             {
                 id: 3,
@@ -22,7 +22,7 @@ books:[
                 author: "Rob",
                 price: "20",
                 level: "Secondary 2",
-                img: "jauhari 2A.jpg",
+                img: "",
                 
             },
             {
