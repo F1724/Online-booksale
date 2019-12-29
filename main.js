@@ -74,7 +74,17 @@ var app = new Vue({
                 price: 50,
                 level: 'Secondary 4',
 
+            },
+            {
+                id: 10,
+                title: 'Discovering Maths,2A',
+                author:'Alex',
+                price:50,
+                level:'Secondary 2',
             }],
+            
+                
+            
 
 
 
