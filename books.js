@@ -22,7 +22,7 @@ books:[
                 author: "Rob",
                 price: "20",
                 level: "Secondary 2",
-                img: "",
+                img: "img\jauhari 2A.jpg",
                 
             },
             {
@@ -31,13 +31,13 @@ books:[
                 author: "Rob",
                 price: "20",
                 level: "Secondary 2",
-                img: "jauhari 2B.jpg" ,
+                img: "img\jauhari 2BA.jpg" ,
 
                 title: "Discovering Maths,2A",
                 author: "Alan",
                 price: "30",
                 level: "Secondary 2",
-                img:"discovering maths 1A.jpg",
+                img:"img\discovering mathematics 2A.jpg",
 
 
 
