@@ -5,7 +5,7 @@ books:[
                 author: "Alan",
                 price: "30",
                 level: "Secondary 1",
-                img:"img\discovering maths 1A.jpg"
+                img:"img/discovering maths 1A.jpg"
 
             },
             {
@@ -14,7 +14,7 @@ books:[
                 author: "Alan",
                 price: "30",
                 level: "Secondary 1",
-                img: "img\discovering maths 1B.jpg" ,
+                img: "img/discovering maths 1B.jpg" ,
             },
             {
                 id: 3,
@@ -22,7 +22,7 @@ books:[
                 author: "Rob",
                 price: "20",
                 level: "Secondary 2",
-                img: "img\jauhari 2A.jpg",
+                img: "img/jauhari 2A.jpg",
                 
             },
             {   id: 4,
@@ -30,13 +30,13 @@ books:[
                 author: "Rob",
                 price: "20",
                 level: "Secondary 2",
-                img: "img\jauhari 2BA.jpg" ,
+                img: "img/jauhari 2BA.jpg" ,
 
                 id: "Discovering Maths,2A",
                 author: "Alan",
                 price: "30",
                 level: "Secondary 2",
-                img:"img\discovering mathematics 2A.jpg",
+                img:"img/discovering mathematics 2A.jpg",
 
 
                 id: 7,
@@ -44,7 +44,7 @@ books:[
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-                img: "img\pure chemistry textbook GCE O Level.jpg"
+                img: "img/pure chemistry textbook GCE O Level.jpg"
             },
             {    
                 id: 8,
@@ -52,7 +52,7 @@ books:[
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-                img: "img\pure physics textbook GCE O Level.jpg"
+                img: "img/pure physics textbook GCE O Level.jpg"
 
             },
             {
@@ -61,7 +61,7 @@ books:[
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-                img: "img\pure biology textbook GCE O Level.jpg"
+                img: "img/pure biology textbook GCE O Level.jpg"
 
             },
             {

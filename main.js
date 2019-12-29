@@ -44,7 +44,7 @@ var app = new Vue({
                 author: 'Chan',
                 price: 40,
                 level: 'Secondary 3',
-                img: "img\discovering chemistry GCE O Level.jpg"
+                img: "img/discovering chemistry GCE O Level.jpg"
             },
             {
                 id: 6,
@@ -52,7 +52,7 @@ var app = new Vue({
                 author: 'Alex',
                 price: 40,
                 level: 'Secondary 3',
-                img: "img\discovering physics GCE O Level.jpg"
+                img: "img/discovering physics GCE O Level.jpg"
             },
             {
                 id: 7,
@@ -60,7 +60,7 @@ var app = new Vue({
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-                img: "img\pure chemistry textbook GCE O Level.jpg"
+                img: "img/pure chemistry textbook GCE O Level.jpg"
             },
             {    
                 id: 8,
@@ -68,7 +68,7 @@ var app = new Vue({
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-                img: "img\pure physics textbook GCE O Level.jpg"
+                img: "img/pure physics textbook GCE O Level.jpg"
 
             },
             {
@@ -77,7 +77,7 @@ var app = new Vue({
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-                img: "img\pure biology textbook GCE O Level.jpg"
+                img: "img/pure biology textbook GCE O Level.jpg"
 
             },
             {
@@ -86,7 +86,7 @@ var app = new Vue({
                 author:'Alex',
                 price: 50,
                 level:'Secondary 2',
-                img: "img\discovering mathematics 2A.jpg"
+                img: "img/discovering mathematics 2A.jpg"
 
 
             }],
