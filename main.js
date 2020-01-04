@@ -80,6 +80,7 @@ var app = new Vue({
                 img: "img/pure biology textbook GCE O Level.jpg"
 
             },
+            
             {
                 id: 10,
                 title: 'Discovering Maths,2A',
