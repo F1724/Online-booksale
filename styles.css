@@ -46,15 +46,12 @@
 
       img{
         height: 50px;
-        float: left;
+        vertical-align: middle;
     }
     input{
         height: 50px;
-        margin: 0;
-        padding: 0;
-        float: left;
     }
-
+    
     
 
       header.masthead {
