@@ -44,16 +44,15 @@
         padding: 2px 16px;
       }
 
-      .img {
-        display: flex;
+       .img {
+        display: flow-root;
         justify-content: space-between;
         align-items:center;
         background-color: #eee;
         padding: 1rem;
         flex-wrap: wrap;
       }
-      
-      .img {
+       .img {
         width: 5rem;
         height: auto
       }
