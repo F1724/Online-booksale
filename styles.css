@@ -44,10 +44,18 @@
         padding: 2px 16px;
       }
 
-      img {
-        max-width:100%;
-        height:auto;
-    }
+       .img {
+        display: flow-root;
+        justify-content: space-between;
+        align-items:center;
+        background-color: #eee;
+        padding: 1rem;
+        flex-wrap: wrap;
+      }
+       .img {
+        width: 5rem;
+        height: auto
+      }
 
     
 
