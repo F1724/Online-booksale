@@ -71,7 +71,8 @@
           <div v-for="book in currentBooks" class="card">
             <img :src="book.img" class="card-img-top img-responsive" alt="...">
             <div class="card-body">
-              <p class="card-text">{{book.title}} {{book.level}}</p>
+            <h5> class="card-title">Primary card title</h5>
+            <p class="card-text">{{book.title}} {{book.level}}{{book.price}}</p>
               <!-- price -->
             </div>
           </div>
