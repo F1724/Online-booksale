@@ -340,16 +340,19 @@ var app = new Vue({
 ],
         currentBooks: [],
     },
+    created: function() {
+            this.currentBooks = this.books.filter(book => book.level == "Secondary 1");
+        },
     methods: {
         getBooks: function (levelchoice, id) {
             this.currentBooks = this.books.filter(book => book.level == levelchoice);
 
             let buttons = document.getElementsByTagName('button');
-            for (var i = 0; i < buttons.length; i++) {
-                buttons[i].classList.remove("btn-primary")
+            for (var i = 0; i < buttons.length; i++); {
+                buttons[i].classList.remove("btn-primary");
 
-            document.getElementById(id).classList.add("btn-primary")
-            console.log("color changed")
+            document.getElementById(id).classList.add("btn-primary");
+            console.log("color changed");
             }
         },
     }
