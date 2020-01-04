@@ -36,28 +36,28 @@ var app = new Vue({
             },
             {
                 id: 5,
-                title: 'Discover Chemistry Textbook',
+                title: 'Discover Chemistry Theory book',
                 price: "$40",
                 level: 'Secondary 3',
                 img: "img/discovering chemistry GCE O Level.jpg"
             },
             {
                 id: 6,
-                title: 'Discover Physics Textbook',
+                title: 'Discover Physics Theory book',
                 price: "$40",
                 level: 'Secondary 3',
                 img: "img/discovering physics GCE O Level.jpg"
             },
             {
                 id: 7,
-                title: 'Discover Pure Chemistry',
+                title: 'Pure Chemistry Theory book',
                 price: "$50",
                 level: 'Secondary 4',
                 img: "img/pure chemistry textbook2 GCE O Level.jpg"
             },
             {    
                 id: 8,
-                title: 'Discover Pure Physics',
+                title: 'Pure Physics Theory book ',
                 price: "$50",
                 level: 'Secondary 4',
                 img: "img/pure physics textbook GCE O Level.jpg"
@@ -65,7 +65,7 @@ var app = new Vue({
             },
             {
                 id: 9,
-                title: 'Discover Pure Biology',
+                title: 'Pure Biology Theory book ',
                 price: "$50",
                 level: 'Secondary 4',
                 img: "img/pure biology textbook GCE O Level.jpg"
@@ -144,7 +144,7 @@ var app = new Vue({
          
             {
                 id: 18,
-                title: 'Discover Biology Textbook ',
+                title: 'Discover Biology Theory book ',
                 price: "$50",
                 level:'Secondary 3',
                 img: "img/discovering biology GCE O Level.jpg"
@@ -167,7 +167,7 @@ var app = new Vue({
                 title: 'Jauhari 4B textbook ',
                 price: "$50",
                 level:'Secondary 4',
-                img: "img/jauhari 4BT.jpg"
+                img: "img/jauhari 4B.jpg"
 
             },
 
@@ -283,6 +283,67 @@ var app = new Vue({
                 img: "img/jauhari 2BA.jpg"
 
             },
+
+            {
+                id: 33,
+                title: 'Discover Biology Practical book ',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/discovering biology practical book GCE O Level.jpg"
+
+            },
+
+            {
+                id: 34,
+                title: 'Discover Physics Practical book ',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/discovering physics practical book GCE O Level.jpg"
+
+            },
+
+            {
+                id: 35,
+                title: 'Discover Chemistry Practical book ',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/discovering chemistry practical book GCE O Level.jpg"
+
+            },
+
+            {
+                id: 36,
+                title: 'Pure Biology Practical book ',
+                price: "$50",
+                level:'Secondary 4',
+                img: "img/pure biology practical book GCE O Level.jpg"
+
+            },
+
+            {
+                id: 37,
+                title: 'Pure Physics Practical book ',
+                price: "$50",
+                level:'Secondary 4',
+                img: "img/pure physics practical book GCE O Level.jpg"
+
+            },
+
+            {
+                id: 38,
+                title: 'Pure Chemistry Practical book ',
+                price: "$50",
+                level:'Secondary 4',
+                img: "img/pure chemistry practical book GCE O Level.jpg"
+
+            },
+
+
+
+
+
+
+
 
 
 
