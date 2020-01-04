@@ -6,7 +6,7 @@ var app = new Vue({
                 id: 1,
                 title: 'Discovering Maths,1A',
                 author: "Alan",
-                price: 30,
+                price: "$30",
                 level: 'Secondary 1',
                 img: "img/discovering maths 1A.jpg",
                 
@@ -15,7 +15,7 @@ var app = new Vue({
                 id: 2,
                 title: 'Discovering Maths,1B',
                 author: 'Alan',
-                price: 30,
+                price: "$30",
                 level: 'Secondary 1',
                 img: "img/discovering maths 1B.jpg",
                 
@@ -24,7 +24,7 @@ var app = new Vue({
                 id: 3,
                 title: 'Jauhari,2A',
                 author: 'Rob',
-                price: 20,
+                price: "$20",
                 level: 'Secondary 2',
                 img: "img/jauhari 2A.jpg",
                 
@@ -34,7 +34,7 @@ var app = new Vue({
                 id: 4,
                 title: 'Jauhari,2B',
                 author: 'Rob',
-                price: 20,
+                price: "$20",
                 level: 'Secondary 2',
                 img: "img/jauhari 2B.jpg"
             },
@@ -42,7 +42,7 @@ var app = new Vue({
                 id: 5,
                 title: 'Discover Chemistry',
                 author: 'Chan',
-                price: 40,
+                price: "$40",
                 level: 'Secondary 3',
                 img: "img/discovering chemistry GCE O Level.jpg"
             },
@@ -50,7 +50,7 @@ var app = new Vue({
                 id: 6,
                 title: 'Discover Physics',
                 author: 'Alex',
-                price: 40,
+                price: "$40",
                 level: 'Secondary 3',
                 img: "img/discovering physics GCE O Level.jpg"
             },
@@ -58,7 +58,7 @@ var app = new Vue({
                 id: 7,
                 title: 'Discover Pure Chemistry',
                 author: 'Alex',
-                price: 50,
+                price: "$50",
                 level: 'Secondary 4',
                 img: "img/pure chemistry textbook2 GCE O Level.jpg"
             },
@@ -66,7 +66,7 @@ var app = new Vue({
                 id: 8,
                 title: 'Discover Pure Physics',
                 author: 'Alex',
-                price: 50,
+                price: "$50",
                 level: 'Secondary 4',
                 img: "img/pure physics textbook GCE O Level.jpg"
 
@@ -75,7 +75,7 @@ var app = new Vue({
                 id: 9,
                 title: 'Discover Pure Biology',
                 author: 'Alex',
-                price: 50,
+                price: "$50",
                 level: 'Secondary 4',
                 img: "img/pure biology textbook GCE O Level.jpg"
 
@@ -85,7 +85,7 @@ var app = new Vue({
                 id: 10,
                 title: 'Discovering Maths,2A',
                 author:'Alex',
-                price: 50,
+                price: "$50",
                 level:'Secondary 2',
                 img: "img/discovering mathematics 2A.jpg"
 
