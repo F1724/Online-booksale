@@ -336,37 +336,7 @@ var app = new Vue({
                 level:'Secondary 4',
                 img: "img/pure chemistry practical book GCE O Level.jpg"
 
-            },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-        
+            },       
 ],
         currentBooks: [],
     },
@@ -380,17 +350,7 @@ var app = new Vue({
 
             document.getElementById(id).classList.add("btn-primary")
             console.log("color changed")
-
-           
             }
-
         },
-        
-            // use message to pass the book.name
-            // // find a book obj that matches the same book.name that was passed
-            // change book obj.reserved from false to true
-           
-           
-    
     }
 })
