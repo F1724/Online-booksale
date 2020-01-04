@@ -11,16 +11,11 @@
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: brown;
-      height: 100%;
+      background-color: rgb(42, 136, 165);
+      height: 30%;
     }
     
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: crimson;
-      color: gold;
-      padding: 15px;
-    }
+  
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
@@ -59,7 +54,7 @@
         overflow: hidden;
         padding-top: calc(7rem + 72px);
         padding-bottom: 7rem;
-        background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+        background: linear-gradient(0deg, #00ff37 0%, #24ee09 100%);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: scroll;
@@ -82,7 +77,7 @@
         z-index: 0;
         position: absolute;
         border-radius: 100%;
-        background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+        background: linear-gradient(0deg, #09ee8f 0%, #00ffc8 100%);
       }
       
       header.masthead .bg-circle-1 {
