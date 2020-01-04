@@ -11,28 +11,23 @@
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: brown;
-      height: 100%;
+      background-color: rgb(42, 165, 108);
+      height:100%;
     }
     
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: crimson;
-      color: gold;
-      padding: 15px;
-    }
+  
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
       .sidenav {
         height: auto;
-        padding: 15px;
+        padding: 30px;
       }
       .row.content {height:auto;} 
     }
     .card {
         /* Add shadows to create the "card" effect */
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         max-width: 300px;
         float: left;
@@ -61,7 +56,7 @@
         overflow: hidden;
         padding-top: calc(7rem + 72px);
         padding-bottom: 7rem;
-        background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+        background: linear-gradient(0deg, #1ec054 0%, #1ec054 100%);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: scroll;
@@ -84,7 +79,7 @@
         z-index: 0;
         position: absolute;
         border-radius: 100%;
-        background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+        background: linear-gradient(0deg, #28c5c5 0%, #28c5c5 100%);
       }
       
       header.masthead .bg-circle-1 {
