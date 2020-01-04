@@ -4,7 +4,7 @@ var app = new Vue({
         books: [
             {
                 id: 1,
-                title: 'Discovering Maths,1A',
+                title: 'Discovering Maths 1A',
                 price: "$30",
                 level: 'Secondary 1',
                 img: "img/discovering maths 1A.jpg",
@@ -12,7 +12,7 @@ var app = new Vue({
             },
             {
                 id: 2,
-                title: 'Discovering Maths,1B',
+                title: 'Discovering Maths 1B',
                 price: "$30",
                 level: 'Secondary 1',
                 img: "img/discovering maths 1B.jpg",
@@ -20,7 +20,7 @@ var app = new Vue({
             },
             {
                 id: 3,
-                title: 'Jauhari,2A',
+                title: 'Jauhari 2A textbook',
                 price: "$20",
                 level: 'Secondary 2',
                 img: "img/jauhari 2A.jpg",
@@ -29,21 +29,21 @@ var app = new Vue({
             },
             {
                 id: 4,
-                title: 'Jauhari,2B',
+                title: 'Jauhari 2B activity book',
                 price: "$20",
                 level: 'Secondary 2',
                 img: "img/jauhari 2B.jpg"
             },
             {
                 id: 5,
-                title: 'Discover Chemistry',
+                title: 'Discover Chemistry Textbook',
                 price: "$40",
                 level: 'Secondary 3',
                 img: "img/discovering chemistry GCE O Level.jpg"
             },
             {
                 id: 6,
-                title: 'Discover Physics',
+                title: 'Discover Physics Textbook',
                 price: "$40",
                 level: 'Secondary 3',
                 img: "img/discovering physics GCE O Level.jpg"
@@ -74,7 +74,7 @@ var app = new Vue({
             
             {
                 id: 10,
-                title: 'Discovering Maths,2A',
+                title: 'Discovering Maths 2A',
                 price: "$50",
                 level:'Secondary 2',
                 img: "img/discovering mathematics 2A.jpg"
@@ -83,7 +83,7 @@ var app = new Vue({
         
             {
                 id: 11,
-                title: 'Discovering Maths,2B',
+                title: 'Discovering Maths 2B',
                 price: "$50",
                 level:'Secondary 2',
                 img: "img/discovering mathematics 2B.jpg"
@@ -92,7 +92,7 @@ var app = new Vue({
 
             {
                 id: 12,
-                title: 'Discovering Maths,3A',
+                title: 'Discovering Maths 3A',
                 price: "$50",
                 level:'Secondary 3',
                 img: "img/discovering mathematics 3A.jpg"
@@ -100,7 +100,7 @@ var app = new Vue({
            
             {
                 id: 13,
-                title: 'Discovering Maths,3B',
+                title: 'Discovering Maths 3B',
                 price: "$50",
                 level:'Secondary 3',
                 img: "img/discovering mathematics 3B.jpg"
@@ -109,7 +109,7 @@ var app = new Vue({
 
             {
                 id: 14,
-                title: 'Discovering Maths,4A',
+                title: 'Discovering Maths 4A',
                 price: "$50",
                 level:'Secondary 4',
                 img: "img/discovering mathematics 4A.jpg"
@@ -117,7 +117,7 @@ var app = new Vue({
             
             {
                 id: 15,
-                title: 'Discovering Maths,4B',
+                title: 'Discovering Maths 4B',
                 price: "$50",
                 level:'Secondary 4',
                 img: "img/discovering mathematics 4B.jpg"
@@ -144,7 +144,7 @@ var app = new Vue({
          
             {
                 id: 18,
-                title: 'Discovering Biology ',
+                title: 'Discover Biology Textbook ',
                 price: "$50",
                 level:'Secondary 3',
                 img: "img/discovering biology GCE O Level.jpg"
@@ -154,12 +154,151 @@ var app = new Vue({
 
             {
                 id: 19,
-                title: ' ',
+                title: 'Jauhari 4A activity book ',
                 price: "$50",
-                level:'Secondary 3',
-                img: ""
+                level:'Secondary 4',
+                img: "img/jauhari 4AA.jpg"
 
             },
+
+
+            {
+                id: 20,
+                title: 'Jauhari 4B textbook ',
+                price: "$50",
+                level:'Secondary 4',
+                img: "img/jauhari 4BT.jpg"
+
+            },
+
+
+            {
+                id: 21,
+                title: 'Jauhari 3A activity book ',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/jauhari 3AA.jpg"
+
+            },
+
+            {
+                id: 22,
+                title: 'Jauhari 3A textbook ',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/jauhari 3AT.jpg"
+
+            },
+            {
+                id: 23,
+                title: 'Jauhari 3B activity book ',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/jauhari 3BA.jpg"
+
+            },
+            {
+                id: 24,
+                title: 'Jauhari 3B textbook ',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/jauhari 3BT.jpg"
+
+            }, 
+
+            {
+                id: 25,
+                title: 'Jauhari 4B activity book ',
+                price: "$50",
+                level:'Secondary 4',
+                img: "img/jauhari 4BA.jpg"
+
+            },
+
+            {
+                id: 26,
+                title: 'Jauhari 4A textbook ',
+                price: "$50",
+                level:'Secondary 4',
+                img: "img/jauhari 4A.jpg"
+
+            },
+
+
+            {
+                id: 27,
+                title: 'Jauhari 1A activity book ',
+                price: "$50",
+                level:'Secondary 1',
+                img: "img/jauhari 1A.jpg"
+
+            },
+
+
+            {
+                id: 28,
+                title: 'Jauhari 1A textbook ',
+                price: "$50",
+                level:'Secondary 1',
+                img: "img/jauhari 1AT.jpg"
+
+            },
+
+
+            {
+                id: 29,
+                title: 'Jauhari 1B activity book ',
+                price: "$50",
+                level:'Secondary 1',
+                img: "img/jauhari 1BA.jpg"
+
+            },
+
+
+            {
+                id: 30,
+                title: 'Jauhari 1B textbook ',
+                price: "$50",
+                level:'Secondary 1',
+                img: "img/jauhari 1B.jpg"
+
+            },
+
+
+            {
+                id: 31,
+                title: 'Jauhari 2A activity book ',
+                price: "$50",
+                level:'Secondary 2',
+                img: "img/jauhari 2AA.jpg"
+
+            },
+
+
+            {
+                id: 32,
+                title: 'Jauhari 2B textbook ',
+                price: "$50",
+                level:'Secondary 2',
+                img: "img/jauhari 2BA.jpg"
+
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             
