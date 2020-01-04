@@ -44,12 +44,10 @@
         padding: 2px 16px;
       }
 
-      img{
-        height: 50px;
-        float:left;
-    }
-    input{
-        height: 50px;
+      .card-img-top {
+        width: 100%;
+        height: 25vw;
+        object-fit: cover;
     }
     
 
