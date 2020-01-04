@@ -60,7 +60,7 @@ var app = new Vue({
                 author: 'Alex',
                 price: 50,
                 level: 'Secondary 4',
-                img: "img/pure chemistry textbook GCE O Level.jpg"
+                img: "img/pure chemistry textbook2 GCE O Level.jpg"
             },
             {    
                 id: 8,

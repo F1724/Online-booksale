@@ -49,10 +49,12 @@
         padding: 2px 16px;
       }
 
-      img {
+      /* img {
         max-width:100%;
         height:auto;
-    }
+    } */
+
+    
 
       header.masthead {
         position: relative;
