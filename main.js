@@ -88,9 +88,58 @@ var app = new Vue({
                 price: "$50",
                 level:'Secondary 2',
                 img: "img/discovering mathematics 2A.jpg"
+            },
+
+        
+            {
+                id: 11,
+                title: 'Discovering Maths,2B',
+                author:'Alex',
+                price: "$50",
+                level:'Secondary 2',
+                img: "img/discovering mathematics 2B.jpg"
+
+            },    
+
+            {
+                id: 12,
+                title: 'Discovering Maths,3A',
+                author:'Alex',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/discovering mathematics 3A.jpg"
+            },
+           
+            {
+                id: 13,
+                title: 'Discovering Maths,3B',
+                author:'Alex',
+                price: "$50",
+                level:'Secondary 3',
+                img: "img/discovering mathematics 3B.jpg"
+            },
 
 
-            }],
+            {
+                id: 14,
+                title: 'Discovering Maths,4A',
+                author:'Alex',
+                price: "$50",
+                level:'Secondary 4',
+                img: "img/discovering mathematics 4A.jpg"
+            },
+            
+            {
+                id: 15,
+                title: 'Discovering Maths,34B',
+                author:'Alex',
+                price: "$50",
+                level:'Secondary 4',
+                img: "img/discovering mathematics 4B.jpg"
+
+            },
+        
+],
             
                 
             
@@ -103,6 +152,8 @@ var app = new Vue({
     methods: {
         getBooks: function (levelchoice) {
             this.currentBooks = this.books.filter(book => book.level == levelchoice);
+
+            // give this button a class
         },
         reserveBook: function (message) {
 

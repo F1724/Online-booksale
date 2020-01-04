@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="styles.css">
 
 
@@ -71,9 +72,11 @@
           <div v-for="book in currentBooks" class="card">
             <img :src="book.img" class="card-img-top img-responsive" alt="...">
             <div class="card-body">
-            <h5 class="card-title">{{book.title}}</h5>
-            <p class="card-text">{{book.level}}</p>
-            <h5 class="card-title"> Price: {{book.price}}</h5>
+            <h4 class="card-title">{{book.title}}</h4>
+            <h5 class="card-text"> Price: {{book.price}}</h5>
+
+
+            
 
               <!-- price -->
             </div>
