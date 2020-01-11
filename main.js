@@ -348,11 +348,8 @@ var app = new Vue({
             this.currentBooks = this.books.filter(book => book.level == levelchoice);
 
             let buttons = document.getElementsByTagName('button');
-            for (var i = 0; i < buttons.length; i++)            
-            {
-                console.log("i = " + i)
+            for (var i = 0; i < buttons.length; i++) {
                 buttons[i].classList.remove("btn-primary");
-                console.log("color changed");
             }
             document.getElementById(id).classList.add("btn-primary");
         },
