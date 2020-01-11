@@ -19,9 +19,9 @@
   <header class="masthead text-center text-white">
     <div class="masthead-content">
       <div class="container">
-        <h1 class="masthead-heading mb-0">Welcome To Our Web Catalogue For Secondary School Books  </h1>
-       
-       
+        <h1 class="masthead-heading mb-0">Welcome To Our Web Catalogue For Secondary School Books </h1>
+
+
       </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
@@ -30,7 +30,7 @@
     <div class="bg-circle-4 bg-circle"></div>
   </header>
 
-  <div class="container-fluid text-center" id="app" >
+  <div class="container-fluid text-center" id="app">
     <div class="row content">
       <div class="col-sm-2 sidenav">
         <!-- <p><a href="#">Secondary 1</a></p> -->
@@ -41,21 +41,40 @@
       </div>
       <div class="col-sm-10 text-left">
         <div class="card-deck">
-      <div class="col-sm-10 text-left">
-        <div class="card-deck">
-          <div v-for="book in currentBooks" class="card" style="width: 350px; height: 350px;">
-            <img :src="book.img" class="card-img-top img-responsive" style= "height:80% ;">
-            <div class="card-body">
-            <h5 class="card-title">{{book.title}}</h5>
-            <h6 class="card-text"> Price: {{book.price}}</h6>
+          <div class="col-sm-10 text-left">
+            <div class="card-deck">
+              <div v-for="book in currentBooks" class="card" style="width: 350px; height: 350px;">
+                <img :src="book.img" class="card-img-top img-responsive" style="height:80% ;">
+                <div class="card-body">
+                  <h5 class="card-title">{{book.title}}</h5>
+                  <h6 class="card-text"> Price: {{book.price}}</h6>
+                </div>
+              </div>
             </div>
+
+
           </div>
-          </div>
-          
-          
+        </div>
+      </div>
     </div>
   </div>
- 
+
+    <footer class="page-footer font-small blue pt-4">
+
+      <div class="container-fluid text-center text-md-left">
+
+          <!-- Grid column -->
+          <div class="col-md-12 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h5 class="text-uppercase">team Books</h5>
+          </div>
+      </div>
+
+    </footer>
+  
+
+
 </body>
 
 
