@@ -52,6 +52,15 @@
         object-fit: cover;
     }
 
+      .card-title {
+        margin-left: 5px;
+        margin-right: 1px
+      }
+       .card-text{
+         margin-left: px;
+         margin-right: 1px
+
+      }
 
 
     
