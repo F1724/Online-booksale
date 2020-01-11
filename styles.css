@@ -11,7 +11,8 @@
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: rgb(42, 165, 108);
+      background-color: rgb(214, 228, 22);
+     
       height:100%;
     }
     
@@ -60,11 +61,11 @@
         overflow: hidden;
         padding-top: calc(7rem + 72px);
         padding-bottom: 7rem;
-        background: linear-gradient(0deg, #1ec054 0%, #1ec054 100%);
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: scroll;
         background-size: cover;
+        background-image: url("img/Book\ Banner\ 1.jpg");
       }
       
       header.masthead .masthead-content {
@@ -74,49 +75,16 @@
       
       header.masthead .masthead-content .masthead-heading {
         font-size: 4rem;
+        color: rgb(214, 228, 22);
       }
       
       header.masthead .masthead-content .masthead-subheading {
         font-size: 2rem;
       }
-      header.masthead .bg-circle {
-        z-index: 0;
-        position: absolute;
-        border-radius: 100%;
-        background: linear-gradient(0deg, #28c5c5 0%, #28c5c5 100%);
-      }
-      
-      header.masthead .bg-circle-1 {
-        height: 90rem;
-        width: 90rem;
-        bottom: -55rem;
-        left: -55rem;
-      }
-      
-      header.masthead .bg-circle-2 {
-        height: 50rem;
-        width: 50rem;
-        top: -25rem;
-        right: -25rem;
-      }
-      
-      header.masthead .bg-circle-3 {
-        height: 20rem;
-        width: 20rem;
-        bottom: -10rem;
-        right: 5%;
-      }
-      
-      header.masthead .bg-circle-4 {
-        height: 30rem;
-        width: 30rem;
-        top: -5rem;
-        right: 35%;
-      }
-      
+     
       @media (min-width: 992px) {
         header.masthead {
-          padding-top: calc(10rem + 55px);
+          padding-top: calc(10rem + 0px);
           padding-bottom: 10rem;
         }
         header.masthead .masthead-content .masthead-heading {
